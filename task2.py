@@ -13,5 +13,4 @@ def largest(mylist):
     largest = mylist[length - 1]
     return largest
 
-x = largest([4,6,3,9,24,12,2])
-print(x)
+
