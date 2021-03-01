@@ -9,7 +9,9 @@ Return the missing side
 """
 import math
 
-hypotenuse(3,4,True)
+x = hypotenuse(3,4,True)
+
+d = 0
 
 def hypotenuse(a,b,c):
     if c == True:
@@ -26,4 +28,4 @@ def hypotenuse(a,b,c):
             d = math.sqrt(d2)
             return d
 
-print(str(d))
+print(x)
